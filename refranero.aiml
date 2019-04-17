@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+    
+<!-- Adaptación del código de jokes.aiml para desarrollar la práctica -->
+
+<category>
+    <pattern>Dime una frase hecha en castellano</pattern>
+
+    <template>
+        <random>
+            <li>Tener algo en la punta de la lengua.  </li>
+            <li>Tomar el pelo  </li>
+            <li>Quedarse con la boca abierta  </li>
+            <li>Pasar la noche en blanco  </li>
+            <li>Perder la cabeza  </li>
+            <li>Costar un ojo de la cara  </li>
+            <li>Echar una mano  </li>
+            <li>Matar el gusanillo  </li>
+            <li>Meter la pata  </li>
+            <li>Estar en Babia  </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Dime una frase hecha en catalan</pattern>
+
+    <template>
+        <random>
+            <li>*Tener algo en la punta de la lengua.  </li>
+            <li>*Tomar el pelo  </li>
+            <li>*Quedarse con la boca abierta  </li>
+            <li>*Pasar la noche en blanco  </li>
+            <li>*Perder la cabeza  </li>
+            <li>*Costar un ojo de la cara  </li>
+            <li>*Echar una mano  </li>
+            <li>*Matar el gusanillo  </li>
+            <li>*Meter la pata  </li>
+            <li>*Estar en Babia  </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>infor</pattern>
+    <that>010011010101100111011</that>
+    <template>Well computers think it's a funny joke.</template>
+</category>
+
+</aiml>
